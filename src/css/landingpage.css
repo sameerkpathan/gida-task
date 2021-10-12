@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0;
+    background-color: #b4f2e1;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.maindiv img{
+    width: 40%;
+    height: 40vh;
+}
+
+.maindiv button{
+    margin-top: 10px;
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.dialog{
+top: 50%;
+width: 90%;
+height: 520px;
+margin: 0px auto;
+background-color: #b4f2e1;
+position: relative;
+transform: translateY(-50%);
+padding: 10px;
+border-radius: 10px;
+}
+
+.dialog img{
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 40px;    
+}
+
+.btn button{
+    width: 20%;
+    height: 20%;
+    border-radius: 15px;
+    word-spacing: 1px;
+    color: green;
+}
