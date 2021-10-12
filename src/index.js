@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {BrowserRouter, Switch,Route} from 'react-router-dom'
+import Statistic from './Statistic';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+  <Switch>
+  <Route path="/statistic">
+    <Statistic/>
+  </Route>
+  <Route path="/" >
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    </Route>
+    </Switch>
+  </BrowserRouter>
+ , document.getElementById('root')
 );
 
 
